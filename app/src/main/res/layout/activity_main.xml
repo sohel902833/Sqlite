@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/gradientbackground"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter Your Name"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:id="@+id/nameEdittextid"
+        android:textStyle="bold|italic"
+        />
+    <EditText
+        android:layout_below="@+id/nameEdittextid"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter Your Roll"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:id="@+id/rollEdittextid"
+        android:textStyle="bold|italic"
+        />
+
+
+    <EditText
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter Your Age"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_below="@id/rollEdittextid"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:id="@+id/ageEdittextid"
+        android:textStyle="bold|italic"
+        />
+
+
+    <EditText
+        android:layout_below="@+id/ageEdittextid"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter Your Gender"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:id="@+id/genderEdittext"
+        android:textStyle="bold|italic"
+        />
+
+    <Button
+        android:id="@+id/saveButtonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundbutton"
+        android:layout_below="@id/genderEdittext"
+        android:text="Save Value"
+        android:textColor="#5C7404"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        />
+    <Button
+        android:id="@+id/displaydataButtonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundbutton"
+        android:layout_below="@id/saveButtonid"
+        android:text="Display Value"
+        android:textColor="#5C7404"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>
